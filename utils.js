@@ -1,6 +1,5 @@
 const get = "get";
 const set = "set"
-//const body = document.body;
 
 function body(action, newcontent) {
     if (action === "get" ) {
