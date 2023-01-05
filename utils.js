@@ -1,6 +1,10 @@
+const get = "get";
+const set = "set"
+const body = document.body;
+
 function body(action, newcontent) {
     if (action === "get" ) {
-        return document.body;
+        return document.body.innerHTML;
     } else if (action === "set") {
         document.body.innerHTML = newcontent;
         return document.body.innerHTML;
